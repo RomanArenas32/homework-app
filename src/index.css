@@ -11,14 +11,15 @@
 }
 body{
   background-color: var(--primario);
-  
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-shadow: 3px 3px #453d3d;
 }
 
 .app{
   width: 600px;
-  height: 300px;
+  height: 400px;
   background-color: var(--secundario);
-  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+  box-shadow: 5px 5px 10px rgba(8, 8, 8, 0.809);
   border-radius: 2rem;
   display: flex;
   flex-direction: column;
@@ -34,4 +35,18 @@ body{
   place-items: center;
   margin-top: 10rem;
 
+}
+
+.buttonNext{
+    width: 130px;
+    height: 50px;
+    position: absolute;
+    margin-top: 21rem;
+    border-radius: 3rem;
+    background-color: rgb(199, 215, 136);
+    margin-left: 20rem;
+}
+.buttonNext:hover{
+  cursor: pointer;
+  border: medium double #369;
 }

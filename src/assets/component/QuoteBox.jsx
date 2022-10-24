@@ -44,9 +44,9 @@ const QuoteBox = () => {
     return (
         <Fragment>
             <div className='app' style={{ color: colors[randomColorIndex] }}>
-                <h1>Author:  {quotes[index].author}</h1>
-                <h2>quote: {quotes[index].quote}</h2>
-                <button onClick={changeAll}>Next</button>
+                <h1>{quotes[index].author}</h1>
+                <h2>{quotes[index].quote}</h2>
+                <button className='buttonNext' onClick={changeAll}>Next</button>
             </div>
         </Fragment>
     );
